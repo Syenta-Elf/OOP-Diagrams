@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2021-12-18T16:05:12.780Z" agent="5.0 (Windows)" version="16.0.0" etag="3eBc41lIwaRXIF6jODs-" type="github"><diagram id="j8WF4BvJCq1gJFdeqQBW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-23T12:37:41.229Z" agent="5.0 (Windows)" etag="vGdKod0gOdhq1hao2PpJ" version="16.0.0" type="github">
+  <diagram id="j8WF4BvJCq1gJFdeqQBW" name="Page-1">
+    <mxGraphModel dx="1038" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-3" value="HavayoluŞirketi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-4" value="id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-3">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-7" value="Uçuş" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-8" value="id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-9" value="kalkacağıHavalimanı : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-10" value="ineceğiHavalimanı : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-23" value="kalkacağıSaat : date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-22" value="ineceğiSaat : date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-25" value="pilot : Pilot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-24" value="coPilot : CoPilot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-7">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-12" value="Uçak" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-14" value="onarım()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-12">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-15" value="calışır()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-12">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-26" value="Havalimanı" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-27" value="id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-26">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-28" value="havalimanıİsmi : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-26">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-31" value="Pilotlar" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-51" value="id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-31">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-59" value="kullan() : Uçak uçak" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-31">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-32" value="deneyim()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-31">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-35" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;entryX=0.494;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4N2BAK2NLCCiRUvEAvtg-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="sourcePoint" />
+            <mxPoint x="519.04" y="210.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-36" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="4N2BAK2NLCCiRUvEAvtg-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="195" as="sourcePoint" />
+            <mxPoint x="460" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-37" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4N2BAK2NLCCiRUvEAvtg-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-38" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4N2BAK2NLCCiRUvEAvtg-52" target="4N2BAK2NLCCiRUvEAvtg-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="280" />
+              <mxPoint x="480" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-42" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="640" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="480" />
+              <mxPoint x="640" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-43" value="Pilot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-47" value="CoPilot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-52" value="UçakTipi" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-56" value="id : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-52">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-53" value="pilotSayısı : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;sketch=0;" vertex="1" parent="4N2BAK2NLCCiRUvEAvtg-52">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;sketch=0;curved=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4N2BAK2NLCCiRUvEAvtg-12" target="4N2BAK2NLCCiRUvEAvtg-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="400" as="sourcePoint" />
+            <mxPoint x="520" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4N2BAK2NLCCiRUvEAvtg-58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;sketch=0;curved=0;entryX=0.488;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4N2BAK2NLCCiRUvEAvtg-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="518" y="480" as="sourcePoint" />
+            <mxPoint x="520" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
